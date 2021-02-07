@@ -1,0 +1,85 @@
+/*CSS DOCUMENT*/
+
+div.container{
+    max-width: 70em;
+    margin: auto;
+}
+body{
+    background-color: #f2dfd8;
+}
+
+h1 {
+    font-family: serif;
+    color: #421606;
+    margin: 1em 0em 0.5em 0em;
+    font-size: 2.5em;
+    text-align: center;
+    background-color: #ffffff;
+    } 
+
+h2{ 
+    font-family: serif;
+    font-weight: 800;
+    font-variant-caps: all-small-caps;
+    color: #962b0b;
+    margin: 1em 0em 2em 0em;
+    text-align: center;
+} 
+figure{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+    
+figcaption{
+    font-family: serif;
+    font-size: 1em;
+    font-style: italic;
+    padding: 1em 1em 0em 2em;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+h3{
+    font-family: serif;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.ingredients{
+    margin: 3em 1em;
+}
+
+ul{
+    font-family: serif;
+    font-size: 1em;
+    margin: 2em;
+}
+
+
+.directions{
+    margin: 3em 1em;
+}
+
+ol{
+    font-family: serif;
+    font-size: 1em;
+    margin: 2em;
+}
+
+
+footer {
+    font-style: oblique;
+    text-align: center;
+    background: #ffffff;
+}
+
+img {
+    width: 100%; /*Please leave this line.*/
+    padding: 0em 0em 1em 0em;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
