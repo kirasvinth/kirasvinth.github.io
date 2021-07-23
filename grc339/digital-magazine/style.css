@@ -173,6 +173,7 @@ input:nth-of-type(8):checked ~ .photogallery .photos:nth-of-type(8){
         grid-template-columns: repeat(4, 1fr);
         grid-column: 1/2;
         grid-gap: 0 1em;
+	flex-basis: 20em;
     }
     
     header{
